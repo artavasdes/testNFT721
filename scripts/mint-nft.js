@@ -35,10 +35,7 @@ async function mintNFT(tokenURI) {
               "\nCheck Alchemy's Mempool to view the status of your transaction!"
             )
           } else {
-            console.log(
-              "Something went wrong when submitting your transaction:",
-              err
-            )
+            console.log("Something went wrong when submitting your transaction:", err)
           }
         }
       )
